@@ -1,0 +1,51 @@
+body {
+  background-color: #e6e2d3;
+  height: 500vh; }
+
+section {
+  height: 100vh;
+  width: 100vw; }
+
+div {
+  border: 0px solid red; }
+
+#sezione1 {
+  background-color: #c4b7a6; }
+
+.overflow-inner {
+  transform: translateY(100%);
+  transition-delay: 1s;
+  display: block; }
+
+.overflow-container {
+  overflow: hidden;
+  display: block; }
+
+/* animate css */
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+
+@keyframes fadeInUp {
+  from {
+      transform: translateY(100%);
+      transition-delay: 1s;
+      display: block;
+      opacity: 1;
+      
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    display: block;
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
